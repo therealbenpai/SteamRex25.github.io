@@ -5,3 +5,14 @@ body {
   font-family: Verdana;
   text-align: center;
 }
+
+@media (max-width: 768px) {
+  .container {
+    width: 100%;
+    padding: 10px;
+  }
+
+  body {
+    font-size: 16px; /* Makes text a bit bigger on mobile */
+  }
+}
