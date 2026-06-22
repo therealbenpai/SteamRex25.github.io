@@ -1,18 +1,7 @@
 body {
   background-image: url(/dark-waves.jpg);
-  background-size: 100%;
+  background-size: 200%;
   color: white;
   font-family: Verdana;
   text-align: center;
-}
-
-@media (max-width: 768px) {
-  .container {
-    width: 100%;
-    padding: 10px;
-  }
-
-  body {
-    font-size: 16px; /* Makes text a bit bigger on mobile */
-  }
 }
