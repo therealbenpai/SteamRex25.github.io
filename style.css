@@ -19,8 +19,8 @@ main {
 
 /* Pronouns.Page Embed */
 .embed {
-  display: block;
-  height: 1200px;
+  display: block flex;
+  height: 800px;
   width: 80vw;
   border: none;
 }
@@ -28,4 +28,46 @@ main {
 /* Socials */
 .badge {
   width: 85px;
+}
+
+/* Meme Styling */
+
+.meme-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.meme {
+  width: 30vw;
+  max-width: 350px;
+  min-width: 100px;
+}
+
+@media (max-width: 600px) {
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+  .embed {
+    width: 100vw;
+    scale: 0.8;
+  }
+
+  .badge {
+    width: 60px;
+  }
+
+  .meme-container {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .meme {
+    width: 60vw;
+    max-width: 300px;
+  }
 }
