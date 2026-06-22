@@ -19,7 +19,7 @@ main {
 
 /* Pronouns.Page Embed */
 .embed {
-  display: block flex;
+  display: block;
   height: 800px;
   width: 80vw;
   border: none;
